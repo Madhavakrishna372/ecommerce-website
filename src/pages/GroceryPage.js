@@ -1,5 +1,5 @@
 import ProductCard from '../components/ProductCard';
-import { useCart } from '../hooks/useCart';
+import { useCart } from '../components/hooks/useCart';
 
 const GroceryPage = () => {
   const { addToCart } = useCart();
